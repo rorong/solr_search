@@ -1,4 +1,3 @@
-# solr_search
 # Using Solr search engine with Sunspot gem in Rails app
 # Solr search engine
 http://lucene.apache.org/solr/
@@ -12,7 +11,7 @@ You will need the following things properly installed on your computer.
 * rails -v ~ 5.2.3
 
 ## Installation:
-* git clone <https://github.com/rorong/Elastic-Search>
+* git clone https://github.com/rorong/solr_search.git
 * bundle install
 * rails db:setup && rails db:seed
 
