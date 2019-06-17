@@ -13,6 +13,7 @@ You will need the following things properly installed on your computer.
 ## Installation:
 * git clone https://github.com/rorong/solr_search.git
 * bundle install
+* cp config/database.example.yml config/database.yml
 * rails db:setup && rails db:seed
 
 ## Running / Development:
