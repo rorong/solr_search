@@ -11,7 +11,7 @@ Sunspot is a Ruby library for interaction with the Solr search engine. Sunspot i
 
 ## Prerequisites:
 You will need the following things properly installed on your computer.
-* ruby -v ~ 2.6.2
+* ruby -v ~ 2.6.3
 * rails -v ~ 5.2.3
 
 ## Installation:
