@@ -2,6 +2,10 @@
 # Solr search engine
 http://lucene.apache.org/solr/
 
+![Screenshot](doc/FulltextSolrSearch.png)
+![Screenshot](doc/all_record_solrsearch.png)
+
+
 # Sunspot
 Sunspot is a Ruby library for interaction with the Solr search engine. Sunspot is built on top of the RSolr library, which provides a low-level interface for Solr interaction.
 
