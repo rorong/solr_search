@@ -11,7 +11,7 @@ Sunspot is a Ruby library for interaction with the Solr search engine. Sunspot i
 
 ## Prerequisites:
 You will need the following things properly installed on your computer.
-* ruby -v ~ 2.6.2
+* ruby -v ~ 2.6.3
 * rails -v ~ 5.2.3
 
 ## Installation:
@@ -143,3 +143,12 @@ bundle exec rake sunspot:reindex[500,Post]
 # to skip the prompt asking you if you want to proceed with the reindexing:
 bundle exec rake sunspot:reindex[,,true]
 ```
+
+## RSpec Usage
+
+We write tests to ensure that everything goes according to plan.
+
+# Gem Used:
+[rspec-rails](https://github.com/rspec/rspec-rails) installed.
+
+Use [sunspot_matchers](https://github.com/pivotal-legacy/sunspot_matchers) gem- RSpec matchers for testing Sunspot searches.
